@@ -1,0 +1,36 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgba(226, 43, 180, 0.904);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+div{
+    background-color: black;
+    padding: 15px;
+    border-radius: 15px;
+}
+h1,p{
+    color: blanchedalmond
+}
+    
+input{
+    padding: 15px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+}
+button{
+    background-color: rgb(101, 10, 187);
+    border: none;
+    border-radius: 10px;
+    font-size: 30px;
+    width: 100%;
+    color: rgb(255, 255, 255);
+    
+}
+button:hover{
+    background-color: darkmagenta;
+    cursor: pointer;
+}
